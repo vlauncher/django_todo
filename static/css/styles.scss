@@ -1,0 +1,219 @@
+$hcolor:rgb(58, 107, 8);
+// Navbar starts
+.navbar{
+    background: $hcolor !important;
+}
+//Navbar Ends
+// Login Starts
+.login-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:$hcolor;
+}
+
+.login-form{
+    width: 400px;
+    margin: auto;
+
+    .btn{
+        background: $hcolor;
+        color: #fff;
+        width: 100%;
+    }
+    .form-control{
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border: solid $hcolor 1px;
+    }
+}
+.login-link{
+    text-decoration: none;
+    color: $hcolor;
+}
+// Login Ends
+
+//Signup starts
+.signup-link{
+    text-decoration: none;
+    color: $hcolor;
+}
+.signup-form{
+    width: 400px;
+    margin: auto;
+
+    .btn{
+        background: $hcolor;
+        color: #fff;
+        width: 100%;
+    }
+    .form-control{
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border: solid $hcolor 1px;
+    }
+    #id_first_name{
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    #id_last_name{
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    #id_phone_number{
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    #id_email{
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    #id_password1{
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    #id_password2{
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+}
+
+//Signup Ends
+//addform
+.addform{
+    width: 400px;
+    margin: auto;
+
+    .btn{
+        background: $hcolor;
+        color: #fff;
+        width: 100%;
+    }
+    .form-control{
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border: solid $hcolor 1px;
+    }
+}
+//addform ends
+
+//headers
+.listheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:$hcolor;
+}
+.updateheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:$hcolor;
+}
+.singleheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:$hcolor;
+}
+.deleteheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:$hcolor;
+}
+.addheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:$hcolor;
+}
+//headers end
+
+//logout starts
+.logoutpage{
+    width: 40%;
+    margin: auto;
+}
+//logoutends
+
+.singlebox{
+    box-shadow: black;
+    margin: auto !important;
+    width: 500px !important;
+}

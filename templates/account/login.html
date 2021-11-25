@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3 class="text-center my-5 login-header">Login</h3>
+    <div class="container">
+        <form method="post" action="{% url 'account_login' %}" class="login-form">
+            {% csrf_token %}
+            <div class="mb-3 d-flex">
+                <input type="email" placeholder="Email" name="login" class="form-control">
+            </div>
+            <div class="mb-3 d-flex">
+                <input type="password" placeholder="Password" name="password" class="form-control">
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p class="text-center text-dark">Dont have an account <a class="login-link" href="{% url 'account_signup' %}">SignUp</a></p>
+    </div>
+{% endblock content %}
